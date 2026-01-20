@@ -1,0 +1,2 @@
+Its a Student DataBase Record system which has Students Name and Age along with View Marks Option which opens a new page containing the marks for the selected student and also has an option to generate suggestion based on the stuents marks using AI.
+Front end is created using HTML,CSS and JAVASCRIPT and the AI suggestion is Generated locally using LLAMA LLM using OLLAMA in local PC. This entire projects does the REST API operation for getting the students data.
