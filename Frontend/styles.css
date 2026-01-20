@@ -1,0 +1,116 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  padding: 20px;
+}
+
+/* Headings */
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+h3 {
+  color: #444;
+}
+
+/* Input fields */
+input {
+  padding: 8px;
+  margin: 5px;
+  width: 200px;
+}
+
+/* Buttons */
+button {
+  padding: 8px 12px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  background-color: #1976d2;
+  color: white;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #125aa0;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background-color: white;
+}
+
+th {
+  background-color: #1976d2;
+  color: white;
+  padding: 10px;
+}
+
+td {
+  padding: 8px;
+  text-align: center;
+}
+
+/* Action buttons inside table */
+td button {
+  background-color: #e53935;
+}
+
+td button:hover {
+  background-color: #b71c1c;
+}
+
+/* Edit button (first button in actions column) */
+td button:first-child {
+  background-color: #43a047;
+}
+
+td button:first-child:hover {
+  background-color: #2e7d32;
+}
+
+
+
+/* Card layout */
+.card {
+  background-color: white;
+  padding: 20px;
+  max-width: 600px;
+  margin: 20px auto;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Labels */
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Full width inputs inside card */
+.card input {
+  width: 95%;
+  margin-top: 5px;
+}
+
+/* Actions row */
+.actions {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Secondary button */
+button.secondary {
+  background-color: #555;
+}
+
+button.secondary:hover {
+  background-color: #333;
+}

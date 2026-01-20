@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Marks</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h2>Student Marks</h2>
+
+<div class="card">
+
+  <!-- Student Info -->
+  <p><strong>Student ID:</strong> <span id="studentId"></span></p>
+
+  <!-- Marks Inputs -->
+  <label>Math</label>
+  <input type="number" id="math" min="0" max="100">
+
+  <label>Science</label>
+  <input type="number" id="science" min="0" max="100">
+
+  <label>English</label>
+  <input type="number" id="english" min="0" max="100">
+
+  <!-- Save Marks -->
+  <div class="actions">
+    <button onclick="saveMarks()">Save Marks</button>
+    <button class="secondary" onclick="goBack()">⬅ Back</button>
+  </div>
+
+  <hr>
+
+  <!-- AI Section -->
+  <h3>AI Suggestions</h3>
+
+  <button onclick="getAISuggestions()">Get AI Suggestions</button>
+
+  <div
+    id="aiSuggestion"
+    style="
+      white-space: pre-wrap;
+      background: #f9f9f9;
+      border: 1px solid #ddd;
+      padding: 10px;
+      margin-top: 10px;
+    ">
+    Click the button to get AI suggestions.
+  </div>
+
+</div>
+
+<script src="marks.js"></script>
+</body>
+</html>
+
+</html>
